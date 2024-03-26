@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions.homeworks;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;

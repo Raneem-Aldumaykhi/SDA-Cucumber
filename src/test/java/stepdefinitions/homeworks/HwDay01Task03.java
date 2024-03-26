@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions.homeworks;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

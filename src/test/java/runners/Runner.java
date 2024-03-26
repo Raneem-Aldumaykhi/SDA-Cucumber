@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = "stepdefinitions" ,
-        features = "src/test/resources/features"
+        features = "src/test/resources/features/scenarioOutline.feature",
+        dryRun = false
 )
 public class Runner {
 
