@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import utilities.Driver;
 
 import java.time.Duration;
 
@@ -44,7 +45,8 @@ public class CommonStepDef {
 
     @Then("I close the browser")
     public void i_close_the_browser() {
-        driver.close();
+        //driver.close();
+        Driver.closeDriver();
     }
 
 }
